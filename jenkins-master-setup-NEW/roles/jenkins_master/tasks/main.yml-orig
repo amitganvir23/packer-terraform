@@ -82,7 +82,7 @@
 
 - name: Update and Pull new changes from repo
   git:
-    repo: ssh://git@bitbucket.pearson.com/glpin/glp-jenkins-config-devops.git
+    repo: ssh://git@github.com/mongoin/mongo-jenkins-config-devops.git
     dest: "{{ jenkins_bucket }}"
     accept_hostkey: yes
     key_file: /root/.ssh/id_rsa

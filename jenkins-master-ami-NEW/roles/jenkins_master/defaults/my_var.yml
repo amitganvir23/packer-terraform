@@ -6,13 +6,13 @@ jenkins_port: "8080"
 jenkins_java_opts: "-Djenkins.install.runSetupWizard=false"
 
 git_name: "JenkinsMaster"
-git_email: "JenkinsMaster@pearson.com"
+git_email: "JenkinsMaster@gmail.com"
 
 #jenkins_bucket: "/root/jenkins-config-bucket"
 jenkins_bucket: "/tmp/jenkins-config-bucket"
-jenkins_bucket_url: "ssh://git@bitbucket.pearson.com/glpin/glp-jenkins-config-devops.git"
+jenkins_bucket_url: "ssh://git@github.com/mongoin/mongo-jenkins-config-devops.git"
 
-jenkins_plugin_bucket_url: "ssh://git@bitbucket.pearson.com/glpin/glp-infra-packer.git"
+jenkins_plugin_bucket_url: "ssh://git@github.com/mongoin/mongo-infra-packer.git"
 jenkins_plugin_bucket: "/tmp/jenkins-plugin-bucket"
 
 ## user name who is owner of jinkins home
